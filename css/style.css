@@ -139,7 +139,7 @@ a {
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 6px;
-    border-left: 5px solid #6f42c1; /* Purple border accent */
+    border-left: 5px solid #6f42c1; /* Purple Accent */
 }
 
 .update-card h4 {
@@ -192,7 +192,7 @@ a {
     margin-bottom: 5px;
 }
 
-/* --- ROLE COLOR DEFINITIONS (UPDATED) --- */
+/* --- ROLE COLOR DEFINITIONS (FINAL) --- */
 .role-blessed { color: #daa520; } 
 .role-events { color: #ff0000; } 
 .role-workshops { color: #ff0000; } 

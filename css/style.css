@@ -173,18 +173,37 @@ a {
     border-left: 2px solid #333;
 }
 
+.commands-box {
+    background: #10101a; 
+    padding: 20px;
+    border: 1px solid #6f42c1; 
+    border-radius: 6px;
+    margin-top: 20px;
+    font-size: 0.95em;
+}
+
+.commands-box code {
+    background: #202030;
+    color: #00bcd4; 
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: monospace;
+    display: block; 
+    margin-bottom: 5px;
+}
+
 /* --- ROLE COLOR DEFINITIONS (UPDATED) --- */
-.role-blessed { color: #daa520; } /* Goldenrod/Yellow - Role dbdoo saat ini */
-.role-events { color: #ff0000; } /* Red */
-.role-workshops { color: #ff0000; } /* Red */
-.role-official { color: #ff0000; } /* Red */
-.role-devupdates { color: #ffc107; } /* Yellow/Gold */
-.role-community { color: #0000ff; } /* Blue */
-.role-initiate { color: #32cd32; } /* LimeGreen */
-.role-ritualist { color: #ff00ff; } /* Magenta */
-.role-mage { color: #8a2be2; } /* BlueViolet */
-.role-forerunner { color: #daa520; } /* Goldenrod */
-.role-noderunner { color: #32cd32; } /* LimeGreen */
+.role-blessed { color: #daa520; } 
+.role-events { color: #ff0000; } 
+.role-workshops { color: #ff0000; } 
+.role-official { color: #ff0000; } 
+.role-devupdates { color: #ffc107; } 
+.role-community { color: #0000ff; } 
+.role-initiate { color: #32cd32; } 
+.role-ritualist { color: #ff00ff; } 
+.role-mage { color: #8a2be2; } 
+.role-forerunner { color: #daa520; } 
+.role-noderunner { color: #32cd32; } 
 
 /* --- FOOTER --- */
 footer {

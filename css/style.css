@@ -1,0 +1,47 @@
+/*
+ * Ritualnet Info Hub - Main Stylesheet
+ * Version: 1.0
+ */
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+header {
+    background: #007bff; /* Ritualnet Blue */
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #0056b3 3px solid;
+}
+
+header a {
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    float: left;
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+/* Add more styles here as you develop the site */

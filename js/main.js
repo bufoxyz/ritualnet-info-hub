@@ -1,18 +1,17 @@
 // Ritualnet Info Hub - Main JavaScript File
 
 document.addEventListener('DOMContentLoaded', (event) => {
-    // Basic script to confirm the JS is loading correctly
     console.log("Ritualnet Info Hub: Scripts loaded successfully.");
 
-    // Example function: Add a class to the header after scrolling
-    window.onscroll = function() {
-        const header = document.querySelector('header');
-        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
-            header.classList.add("scrolled");
-        } else {
-            header.classList.remove("scrolled");
-        }
-    };
+    // Simple fade-in effect for the main content (optional visual flair)
+    const mainContent = document.querySelector('.main-content');
+    if (mainContent) {
+        mainContent.style.opacity = 0;
+        setTimeout(() => {
+            mainContent.style.transition = 'opacity 1.5s ease-in-out';
+            mainContent.style.opacity = 1;
+        }, 100);
+    }
+    
+    // You can add more interactive functions here, like handling mobile menus.
 });
-
-// You can add more interactive functions here, such as form validation or API calls.

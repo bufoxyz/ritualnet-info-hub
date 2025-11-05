@@ -6,13 +6,13 @@ body {
     line-height: 1.6;
     margin: 0;
     padding: 0;
-    color: #cccccc; /* Light text color for dark mode */
+    color: #cccccc; 
     
-    /* BACKGROUND IMAGE (Using your PNG background) */
+    /* BACKGROUND IMAGE */
     background-color: #1a1a2e; 
-    background-image: url('../assets/background-ritualnet.png'); /* Reference to the uploaded PNG */
+    background-image: url('../assets/background-ritualnet.png'); 
     background-repeat: repeat; 
-    background-size: 200px; /* Make the pattern subtle */
+    background-size: 200px; 
     background-attachment: fixed; 
 }
 
@@ -25,7 +25,6 @@ body {
 
 .main-content {
     padding: 40px 0;
-    /* Optional: Slightly transparent dark box for readability */
     background-color: rgba(0, 0, 0, 0.7); 
     border-radius: 8px;
     margin-top: 20px;
@@ -33,17 +32,17 @@ body {
 }
 
 h1, h2, h3 {
-    color: #ffffff; /* White headings */
+    color: #ffffff; 
 }
 
 /* --- HEADER AND NAVIGATION --- */
 header {
-    background: #000000; /* Solid Black Header */
+    background: #000000; 
     color: #ffffff;
     padding: 10px 0;
     min-height: 60px;
     border-bottom: #6f42c1 3px solid; /* Purple Accent Line */
-    overflow: auto; /* Clear floats */
+    overflow: auto; 
 }
 
 #branding {
@@ -122,7 +121,7 @@ a {
 }
 
 .update-card {
-    background: #252538; /* Slightly lighter dark background for cards */
+    background: #252538; 
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 6px;
@@ -139,6 +138,38 @@ a {
     color: #888888;
     margin-top: 10px;
 }
+
+/* --- ROLE CONTENT STYLING --- */
+.role-content {
+    background: #151525; 
+    padding: 25px;
+    border-radius: 8px;
+    border-left: 5px solid #6f42c1; 
+    margin-bottom: 25px;
+}
+
+.role-content ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.role-content li {
+    margin-bottom: 10px;
+    padding-left: 15px;
+    border-left: 2px solid #333;
+}
+
+/* --- ROLE COLOR DEFINITIONS --- */
+.role-events { color: #ff0000; } /* Red */
+.role-workshops { color: #ff0000; } /* Red */
+.role-official { color: #ff0000; } /* Red */
+.role-devupdates { color: #9400d3; } /* Purple/Dark Violet */
+.role-community { color: #0000ff; } /* Blue */
+.role-initiate { color: #9400d3; } /* Dark Violet / Purple */
+.role-ritualist { color: #ff00ff; } /* Magenta */
+.role-mage { color: #8a2be2; } /* BlueViolet */
+.role-forerunner { color: #daa520; } /* Goldenrod */
+.role-noderunner { color: #32cd32; } /* LimeGreen */
 
 /* --- FOOTER --- */
 footer {

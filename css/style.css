@@ -18,14 +18,14 @@ body {
 
 .container {
     width: 90%;
-    max-width: 900px; /* Diperkecil agar pola background terlihat di samping */
+    max-width: 900px; 
     margin: auto;
     overflow: hidden;
 }
 
 .main-content {
     padding: 40px 0;
-    background-color: rgba(0, 0, 0, 0.4); /* Opacity dikurangi agar background tembus */
+    background-color: rgba(0, 0, 0, 0.4); 
     border-radius: 8px;
     margin-top: 20px;
     padding: 30px;
@@ -41,7 +41,7 @@ header {
     color: #ffffff;
     padding: 10px 0;
     min-height: 60px;
-    border-bottom: #6f42c1 3px solid; /* Purple Accent Line */
+    border-bottom: #6f42c1 3px solid; 
     overflow: auto; 
 }
 
@@ -77,7 +77,7 @@ nav li {
 }
 
 nav a {
-    color: #00bcd4; /* Aqua/Cyan link color */
+    color: #00bcd4; 
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
@@ -91,7 +91,7 @@ nav a:hover {
 /* --- BUTTONS & LINKS --- */
 .btn-primary {
     display: inline-block;
-    background: #ffc107; /* Primary Button: Gold/Yellow */
+    background: #ffc107; 
     color: #1a1a2e;
     padding: 12px 25px;
     margin-top: 20px;
@@ -108,7 +108,7 @@ nav a:hover {
 .btn-secondary {
     display: inline-block;
     background: transparent;
-    color: #00bcd4; /* Secondary Button: Aqua/Cyan border and text */
+    color: #00bcd4; 
     border: 1px solid #00bcd4;
     padding: 8px 15px;
     margin-top: 10px;
@@ -124,7 +124,7 @@ nav a:hover {
 }
 
 a {
-    color: #00bcd4; /* Default link color */
+    color: #00bcd4; 
 }
 
 /* --- SECTIONS AND CARDS --- */
@@ -139,7 +139,7 @@ a {
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 6px;
-    border-left: 5px solid #6f42c1; /* Purple Accent */
+    border-left: 5px solid #6f42c1; 
 }
 
 .update-card h4 {
@@ -204,10 +204,42 @@ a {
 .role-mage { color: #8a2be2; } 
 .role-forerunner { color: #daa520; } 
 .role-noderunner { color: #32cd32; } 
-.role-harmonic { color: #6a8a9a; } /* Blue-grey/Dull Teal sesuai gambar */
+.role-harmonic { color: #6a8a9a; } 
 
+/* --- FOOTER (FINAL) --- */
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 15px 0 10px 0;
+    text-align: center;
+}
 
-/* --- FOOTER --- */
+.social-links li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.social-links a {
+    color: #ffffff; 
+    text-decoration: none;
+    font-size: 1.1em;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s, color 0.3s;
+}
+
+.social-links a:hover {
+    background: #6f42c1; 
+}
+
+.footer-cta {
+    display: block;
+    font-size: 0.9em;
+    font-weight: bold;
+    color: #ffc107; 
+    margin-bottom: 5px;
+}
+
 footer {
     padding: 20px 0;
     color: #888888;

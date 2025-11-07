@@ -18,14 +18,14 @@ body {
 
 .container {
     width: 90%;
-    max-width: 900px; /* Diperkecil agar pola background terlihat di samping */
+    max-width: 900px; 
     margin: auto;
     overflow: hidden;
 }
 
 .main-content {
     padding: 40px 0;
-    background-color: rgba(0, 0, 0, 0.4); /* Opacity dikurangi agar background tembus */
+    background-color: rgba(0, 0, 0, 0.4); 
     border-radius: 8px;
     margin-top: 20px;
     padding: 30px;
@@ -91,7 +91,7 @@ nav a:hover {
 /* --- BUTTONS & LINKS --- */
 .btn-primary {
     display: inline-block;
-    background: #ffc107; /* Primary Button: Gold/Yellow */
+    background: #ffc107; 
     color: #1a1a2e;
     padding: 12px 25px;
     margin-top: 20px;
@@ -139,7 +139,7 @@ a {
     padding: 15px;
     margin-bottom: 15px;
     border-radius: 6px;
-    border-left: 5px solid #6f42c1; /* Purple Accent */
+    border-left: 5px solid #6f42c1; 
 }
 
 .update-card h4 {
@@ -205,6 +205,8 @@ a {
 .role-forerunner { color: #daa520; } 
 .role-noderunner { color: #32cd32; } 
 .role-harmonic { color: #6a8a9a; } 
+.role-cursed { color: #990000; } 
+.role-ritualist-ascendant { color: #ffd700; } 
 
 /* --- FOOTER BUTTONS CONTAINER (CTA PRIBADI) --- */
 .footer-buttons {
